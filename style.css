@@ -1,0 +1,54 @@
+.navi li {
+    display: inline;
+    padding: 26px 85px;
+    background-color:  rgb(187, 208, 255);
+    font-family: 'ZCOOL QingKe HuangYou';
+    margin: 12px;
+    font-size: 26px;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 5;
+}
+main {
+    padding-top: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 19px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(168, 63, 63);
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+body {
+ background: url(https://www.insidescience.org/sites/default/files/5_heic1808a_crop.jpg);
+ background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(168, 63, 63);
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+.jumbotron {
+    background-color:  rgb(168, 63, 63);
+}

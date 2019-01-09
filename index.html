@@ -6,32 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" href="https://www.pfarrbriefservice.de/sites/default/files/styles/xtra_large/public/atoms/image/1f61d_by_twitter_cc-by-40_pfarrbriefservice.gif?itok=TG7uzinK">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/220px-Boostrap_logo.svg.png">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <title>Bootstrap</title>
-
 </head>
 
 <body>
-    <header class="col-sm-">
-        <h1>Bootstrap</h1>
-        <div>
-            <nav class="navi">
-                <ul>
-                    <li><a href="einführung.html">Einführung</a></li>
-                    <li><a href="tutorial.html">Tutorial</a></li>
-                    <li><a href="prüfung.html">Prüfung</a></li>
-                    <li><a href="links.html">Link</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="container-fluid">
+            <h1>Bootstrap</h1>
+            <div class="row">
+                <div class="col-md-3"><a href="einführung.html">Einführung</a></div>
+                <div class="col-md-3" id="color"><a href="tutorial.html">Tutorial</a></div>
+                <div class="col-md-3"><a href="prüfung.html">Prüfung</a></div>
+                <div class="col-md-3" id="color"><a href="links.html">Links</a></div>
+            </div>
+        </div>
         </div>
     </header>
-    <main>
-        <div class="middle"></div>
-    </main>
-    <footer>
-        <p>Scl & SaA</p>
-    </footer>
+    <div id="disc">
+        <h4 class="text-success">Hier sind ein paar Beispiele, was man mit Bootstrap alles machen kann.
+        </br>
+        Diese Schriftfarben sind auch mit Bootstrap gemacht.</h4>
+    </div>
+    <div class="alert alert-warning alert-dismissible" id="alert" class="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Diese Warnung ist mit Bootstrap gemacht. Der Inhalt der Warnung kann nach belieben gewählt werden..</strong>
+    </div>
+    <div class="alert alert-warning alert-dismissible" class="alert">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Wie man solch eine Warnung macht, wird im Tutorial gezeigt.</strong>
+        </div>
+    <div class="container" id="pic">
+        <h4>Hier sieht man ein Bild, dass als Thumbnail in die Website eingebaut wurde.</br> Auch wie dies funktioniert
+            wird im Tutorial erklärt.</h4>
+        <img src="https://bootstrapstudio.io/assets/img/app_2.jpg" alt="Cingue terre" class="img-thumbnail" width="750px"
+            height="auto">
+    </div>
+
+
+
+
+
+
 </body>
 
 </html>

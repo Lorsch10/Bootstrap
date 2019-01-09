@@ -6,31 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" href="https://www.pfarrbriefservice.de/sites/default/files/styles/xtra_large/public/atoms/image/1f61d_by_twitter_cc-by-40_pfarrbriefservice.gif?itok=TG7uzinK">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/220px-Boostrap_logo.svg.png">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-    <title>Aufgaben zu Bootstrap</title>
+    <title>Bootstrap</title>
 </head>
 
 <body>
-    <header class="col-sm-">
-        <h1>Bootstrap</h1>
-        <div>
-            <nav class="navi">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="einführung.html">Einführung</a></li> 
-                    <li><a href="tutorial.html">Tutorial</a></li>                                       
-                    <li><a href="links.html">Link</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="container-fluid">
+            <h1>Bootstrap</h1>
+            <div class="row">
+                    <div class="col-md-3"><a href="index.html">Home</a></div>
+                    <div class="col-md-3"><a href="einführung.html">Einführung</a></div>
+                    <div class="col-md-3" id="color"><a href="tutorial.html">Tutorial</a></div>
+                    <div class="col-md-3" id="color"><a href="links.html">Links</a></div>
+            </div>
+        </div>
         </div>
     </header>
-    <main>
-        <div class="middle"></div>
-    </main>
-    <footer>
-        <p>Scl & SaA</p>
-    </footer>
 </body>
 
 </html>

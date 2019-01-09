@@ -66,6 +66,7 @@ footer {
     color: rgb(168, 63, 63);
 }
 @media (max-width: 576px){
-navi li { display: block;
+navi li { 
+    display: block;
 }
 }

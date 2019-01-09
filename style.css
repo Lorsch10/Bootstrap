@@ -17,6 +17,9 @@ p {
     font-weight: bold;
     font-family: monospace;
 }
+.h3 {
+    margin: 40px;
+}
 
 h2 {
     display: flex;
@@ -90,11 +93,6 @@ ol li {
     text-decoration-color: rgb(160, 47, 47);
 }
 
-.main li:hover {
-    color: rgb(160, 47, 47);
-    font-size: 20px;
-}
-
 .body {
     background: lightblue;
 }
@@ -124,7 +122,18 @@ tbody a:hover {
     width: auto;
 }
 
-#ag1 {
-    width: 1000px;
+.agb {
+    width: 1200px;
     height: auto;
+}
+
+.ag {
+ margin: 40px;
+}
+
+@media (max-width: 1200px) {
+    .agb {
+        width: 600px;
+        height: auto;
+    }
 }

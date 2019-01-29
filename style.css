@@ -3,23 +3,21 @@
     background-image: url("aufgaben/hintergrundbild.jpg");
 }
 
-/*Navigation: hintergrundfarbe, grösse, ausrichtung*/
-.col-md-4 {
-    background: rgb(112, 31, 41);
-    display: flex;
-    justify-content: center;
-    font-family: monospace;
-    font-weight: bolder;
-    font-size: 25px;
-    color: white;
+/*Die Titel von allen Seite */
+.titel {
+    font-family: Arial, Helvetica, sans-serifS;
+    font-size: 55px;
+    text-decoration: underline;
+    text-decoration-color: rgb(112, 31, 41);
 }
 
-/*schrift: grösse, typo*/
+
+/*schrift der kleinen Texte: grösse, typo*/
 p {
     font-size: 18px;
-    font-weight: bold;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /*überschrift 1*/
 h1 {
     display: flex;
@@ -38,73 +36,66 @@ h2 {
     margin: 40px;
 }
 
+/*Inhalt Algemein*/
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* Navigation*/
 
 header a:hover {
     color: rgb(255, 255, 255);
 }
 
+/*Navigation: hintergrundfarbe, grösse, ausrichtung*/
+.col-md-4 {
+    background: rgb(112, 31, 41);
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+/* Navigation: die Links in der */
 
-#pic {
-    margin-top: 40px;
-    text-align: center;
+header a {
+    text-decoration: none; 
+    color: white;
 }
 
-#alert {
-    margin-top: 40px;
-}
-
-#disc {
-    margin-top: 40px;
- text-align: center;
+/*Bilder*/
+.pic {
+    height: 450px;
+    width: auto;
 }
 
 img {
     margin-top: 40px;
 }
 
-
-.alert {
-    text-align: center;
-}
-header a {
-    text-decoration: none; 
-    color: white;
-}
-
-
-
-.col-md-4:hover {
-    background-color: rgba(112, 31, 40, 0.637);
-}
-ol {
+#pic {
+    margin-top: 40px;
     text-align: center;
 }
 
-ol li {
-    padding: 0;
-    background: transparent;
+/*responsive*/
+@media (max-width: 1200px) {
+    .agb {
+        width: 600px;
+        height: auto;
+    }
 }
 
-.main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: monospace;
-    font-size: 19px;
-    font-weight: bolder;
-}
-.us {
-    font-family: monospace;
-    font-weight: bolder;
-    font-size: 55px;
-    text-decoration: underline;
-    text-decoration-color: rgb(112, 31, 41);
+/*tabelle */
+tbody a {
+    color: black;
 }
 
-
-.abstand {
-    margin-top: 25px;
+tbody a:hover {
+    color:rgb(0, 0, 0);
 }
 
 #table {
@@ -117,25 +108,27 @@ ol li {
     font-size: 22px; 
 }
 
-tbody a {
-    color: black;
-}
-
-tbody a:hover {
-    color:rgb(0, 0, 0);
-}
-.pic {
-    height: 450px;
-    width: auto;
-}
-
-.agb {
+/*seite Aufgaben bilder  */
+.aufgabebild {
     width: 1200px;
     height: auto;
 }
 
-.ag {
- margin: 40px;
+/*seite Einführung die titel*/
+
+.abstand {
+    margin-top: 25px;
+}
+
+/*formatiierundg der warnungen und texte auf der ersten Seite*/
+#home {
+    margin-top: 40px;
+ text-align: center;
+}
+
+/*tet in der Warnung*/
+.alert {
+    text-align: center;
 }
 
 
@@ -143,12 +136,3 @@ tbody a:hover {
 
 
 
-
-
-
-@media (max-width: 1200px) {
-    .agb {
-        width: 600px;
-        height: auto;
-    }
-}

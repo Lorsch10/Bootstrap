@@ -1,9 +1,11 @@
-.container-fluid {
-    background-color: lightblue;
+/* hintergrundbild marmor*/
+.body {
+    background-image: url("aufgaben/hintergrundbild.jpg");
 }
 
+/*Navigation: hintergrundfarbe, grösse, ausrichtung*/
 .col-md-4 {
-    background: rgb(160, 47, 47);
+    background: rgb(112, 31, 41);
     display: flex;
     justify-content: center;
     font-family: monospace;
@@ -12,25 +14,36 @@
     color: white;
 }
 
+/*schrift: grösse, typo*/
 p {
     font-size: 18px;
     font-weight: bold;
     font-family: monospace;
 }
-.h3 {
-    margin: 40px;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
+/*überschrift 1*/
 h1 {
     display: flex;
     justify-content: center;
 
 }
+
+/*überschrift 2 Titel der ganzzen seite*/
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/*überschrift-3 Aufgaebe 1 damit es nicht nahe an der Navigation ist */
+.h3 {
+    margin: 40px;
+}
+
+/* Navigation*/
+
+header a:hover {
+    color: rgb(255, 255, 255);
+}
+
 
 #pic {
     margin-top: 40px;
@@ -55,18 +68,14 @@ img {
     text-align: center;
 }
 header a {
-
-
     text-decoration: none; 
     color: white;
 }
 
-header a:hover {
-    color: lightblue;
-}
+
 
 .col-md-4:hover {
-    background-color: rgb(241, 180, 67);
+    background-color: rgba(112, 31, 40, 0.637);
 }
 ol {
     text-align: center;
@@ -90,12 +99,10 @@ ol li {
     font-weight: bolder;
     font-size: 55px;
     text-decoration: underline;
-    text-decoration-color: rgb(160, 47, 47);
+    text-decoration-color: rgb(112, 31, 41);
 }
 
-.body {
-    background: lightblue;
-}
+
 .abstand {
     margin-top: 25px;
 }
@@ -106,7 +113,7 @@ ol li {
 
 .tus {
     text-decoration: underline;
-    text-decoration-color: rgb(160, 47, 47);
+    text-decoration-color: rgb(112, 31, 41);
     font-size: 22px; 
 }
 
@@ -115,7 +122,7 @@ tbody a {
 }
 
 tbody a:hover {
-    color:rgb(68, 98, 228);
+    color:rgb(0, 0, 0);
 }
 .pic {
     height: 450px;
@@ -130,6 +137,14 @@ tbody a:hover {
 .ag {
  margin: 40px;
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 1200px) {
     .agb {

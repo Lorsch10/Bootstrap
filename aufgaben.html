@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/220px-Boostrap_logo.svg.png">
+    <link rel="icon" href="bilder/Boostrap_logo.svg.png">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <title>Bootstrap</title>
 </head>
@@ -20,37 +20,57 @@
     <h1 class="titel">Aufgaben</h1>
 
     <header>
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
 
-            <div class="row">
-                <div class="col-md-4"><a href="index.html">Home</a></div>
-                <div class="col-md-4"><a href="einführung.html">Einführung</a></div>
-                <div class="col-md-4"><a href="links.html">Links</a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aufgaben.html">Aufgaben</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links.html">Links</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        </div>
+        </nav>
+
     </header>
 
     <main class="main">
 
+        <!--Warnung-->
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Achtung!</strong> Alle Einstellungen müssen im HTML gemacht werden, das CSS ist nicht zu verwenden.
+        </div>
+
         <!--Aufgabe 1 grid basics-->
-        <h3 class="h3">Aufgabe 1 - Grid Basics</h3>
-        <img class="aufgabebild" src="aufgaben/Aufgabe_1_grid.PNG" alt="Screenshot Aufgabe 1 Grid">
-        <p>Als erstes empfehle ich ihnen den Link für Grid Basics zu öffnen. Auf dieser Seite finden sie
-            alle Infos dazu.</br>
-            Sie können die Felder selber beschriften. Die Farben sollten allerdings nach Vorlage verwendet werden.</br>
-            Bauen sie mithilfe der verlinkten Website die oben abgebildete Website nach. Sobald sie Fertig sind,</br>
-            können sie unter Links nach der Grid Lösung suchen. Da wird ein Bild verlinkt sein, welches den Lösungscode
-            zeigt.</br>
-            Falls sie einen anderen Weg gefunden haben, mit Bootstrap die Seite nachzubauen,</br>ist es auch richtig,
-            aber nur wenn <i>wirklich Bootstrap</i> verwendet wurde.
-        </p>
-        <!--Aufgabe 2 -->
-        <h3 class="h3"> Aufgabe 2 - Typographie, Farbe und Bilder</h3>
-        <img class="aufgabebild" src="aufgaben/Aufgabe_2.JPG" alt="So sieht die Seite schlussendlich aus">
+        <h2 >Aufgabe 1 - Grid Basics</h2>
+        <img class="img-fluid" src="bilder/Aufgabe_1_v2.JPG" alt="Screenshot Aufgabe 1 Grid">
+        <br>
 
         <ul>
-            <li>Achtung: alle Einstellungen müssen im HTML gemacht werden, das CSS ist nicht zu verwenden.</li>
+            <li>Erstellen Sie eine HTML Seite die mit Bootstaps verlinkt ist.</li>
+            <li> Bauen sie mithilfe der verlinkten Website die oben abgebildete Website nach.</li>
+            <li> Die gewünschten Grössen und Farben sind in den Einzelnen Grids geschrieben.</li>
+            <li> Wenn sie mit der Aufgabe fertig sind, können sie falls nötig in den Lösungen den Code kontrollieren.</li>
+
+        </ul>
+
+        <!--Aufgabe 2 -->
+        <h2 > Aufgabe 2 - Typographie, Farbe und Bilder</h2>
+        <img class="img-fluid" src="bilder/Aufgabe_2.JPG" alt="So sieht die Seite schlussendlich aus">
+        <br>
+
+
+        <ul>
+
             <li>Erstellen Sie eine HTML Seite die mit Bootstaps verlinkt ist</li>
             <li>Erstellen Sie nun ein div mit der class container. Alles was Sie ab jetzt schreiben muss in diesem div
                 sein</li>
@@ -71,10 +91,11 @@
 
 
         <!--Aufgaeb 3 Navigation aufbauen-->
-        <h3 class="h3"> Aufgabe 3 - Navigation</h3>
-        <img class="aufgabebild" src="aufgaben/Aufgabe_3_nav.JPG" alt="Navigation gross">
-        <img src="aufgaben/Aufgabe_3_nav_klein.JPG" alt="Navigation klein">
-
+        <h2 > Aufgabe 3 - Navigation</h2>
+        <img class="img-fluid" src="bilder/Aufgabe_3_nav.JPG" alt="Navigation gross">
+        <br>
+        <img class="img-fluid" src="bilder/Aufgabe_3_nav_klein.JPG" alt="Navigation klein">
+        <br>
 
         <ul>
             <li>Erstellen sie die oben abgebildete Website.</li>

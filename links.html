@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/220px-Boostrap_logo.svg.png">
+    <link rel="icon" href="bilder/Boostrap_logo.svg.png">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <title>Bootstrap</title>
 </head>
@@ -20,51 +20,82 @@
     <h1 class="titel">Links</h1>
 
     <header>
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
 
-            <div class="row">
-                <div class="col-md-4"><a href="index.html">Home</a></div>
-                <div class="col-md-4"><a href="einführung.html">Einführung</a></div>
-                <div class="col-md-4"><a href="aufgaben.html">Aufgaben</a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aufgaben.html">Aufgaben</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links.html">Links</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
+
     </header>
 
     <main class="main">
         <!--Tabelle mit allen Links-->
-        <div class="container" id="table">
-            <table class="table table-bordered table-primary table-hover">
+
+
+
+        <div class="container">
+
+
+            <table class="table">
                 <thead>
                     <tr>
-                        <th class="tus">Hilft bei</th>
-                        <th class="tus">Link</th>
+                        <th>Thema</th>
+                        <th>Link</th>
+
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>Bootstrap Tourtorial</td>
-                        <td><a href="https://www.w3schools.com/bootstrap4/default.asp" target="_blank">W3schools/bootstrap</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tabellen</td>
-                        <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_tables.asp" target="_blank">W3schools/tables</a></td>
-                    </tr>
-                    <tr>
-                        <td>Grid Basics</td>
-                        <td><a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">W3schools/grid</a></td>
-                    </tr>
-                    <!--Lösungen zu den Aufgaben-->
-                    <tr>
-                        <td>Lösungen</td>
-                        <td><a href="aufgaben/Aufgabe_1_grid_html.PNG" target="_blank">Aufgabe 1 Lösung HTML</a><br>
-                    </tr>
-                </tbody>
+
+                <tr>
+                    <td>Bootstrap Tourtorial</td>
+                    <td><a class="losungen" href="https://www.w3schools.com/bootstrap4/default.asp" target="_blank">W3schools/bootstrap</a></td>
+
+                </tr>
+
+                <tr>
+                    <td>Tabellen</td>
+                    <td><a class="losungen" href="https://www.w3schools.com/bootstrap4/bootstrap_tables.asp" target="_blank">W3schools/tables</a></td>
+                </tr>
+                <tr>
+                    <td>Grid Basics</td>
+                    <td><a class="losungen" href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">W3schools/grid</a></td>
+                </tr>
+
+
+
+                <!--Lösungen zu den Aufgaben-->
+                <tr>
+                    <td>Lösungen</td>
+                    <td><a class="losungen" href="bilder/Aufgabe_1_html_v2.JPG" target="_blank">Aufgabe 1 Lösung HTML</a><br>
+                </tr>
+
+                <tr>
+                    <td>Lösungen</td>
+                    <td><a class="losungen" href="bilder/Aufgabe_2_html.JPG" target="_blank">Aufgabe 2 Lösung HTML</a><br>
+                </tr>
+                <tr>
+                    <td>Lösungen</td>
+                    <td><a class="losungen" href="bilder/Aufgabe_3_nav_html.JPG" target="_blank">Aufgabe 3 Lösung HTML</a><br>
+                </tr>
+                
             </table>
         </div>
 
         <!--Bild-->
-        <img class="pic" alt="Cingue terre" class="img-thumbnail" src="https://fotos.verwaltungsportal.de/seitengenerator/gross/nofollow-link.jpg"
-            alt="link foto">
+        <img alt="Cingue terre" class="img-thumbnail" src="bilder/geräte.jpg">
     </main>
 </body>
 

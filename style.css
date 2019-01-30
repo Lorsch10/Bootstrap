@@ -5,34 +5,20 @@
 
 /*Die Titel von allen Seite */
 .titel {
-    font-family: Arial, Helvetica, sans-serifS;
-    font-size: 55px;
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(28, 11, 59);
     text-decoration: underline;
     text-decoration-color: rgb(28,11,59);
+    display: flex;
+    justify-content: center;
 }
-
 
 /*schrift der kleinen Texte: grösse, typo*/
 p {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*überschrift 1*/
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-/*überschrift 2 Titel der ganzzen seite*/
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-/*überschrift-3 Aufgaebe 1 damit es nicht nahe an der Navigation ist */
-.h3 {
-    margin: 40px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: white;
 }
 
 /*Inhalt Algemein*/
@@ -43,103 +29,59 @@ h2 {
     margin: 90px 60px 10px 60px;
     padding: 30px;
     background-color: rgb(28, 11, 59, 0.616);
-}
-
-/* Navigation*/
-
-header a:hover {
-    color: rgb(255, 255, 255);
-}
-
-.col-md-4:hover{
-    padding: 15px;
-    background-color: rgba(28,11,59, 0.616);
-}
-
-/*Navigation: hintergrundfarbe, grösse, ausrichtung*/
-.col-md-4 {
-    background-color: rgb(28,11,59,);
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
     color: white;
-    padding: 20px;
-}
-/* Navigation: die Links in der */
-
-header a {
-    text-decoration: none; 
-    color: white;
+    font-size: 26px;
 }
 
-/*Bilder*/
-.pic {
-    height: 450px;
-    width: auto;
-}
-
-img {
-    margin-top: 40px;
-}
-
-#pic {
-    margin-top: 40px;
-    text-align: center;
-}
-
-/*tabelle */
-tbody a {
-    color: black;
-}
-
-tbody a:hover {
-    color:rgba(0, 0, 0, 0.616);
-}
-
-#table {
-    margin-top: 30px;
-}
-
-.tus {
-    text-decoration: underline;
-    text-decoration-color: rgb(28,11,59);
-    font-size: 22px; 
-}
-
-
-/*seite Aufgaben bilder  */
-.aufgabebild {
-    width: 1200px;
-    height: auto;
-}
-
-/*seite Einführung die titel*/
-
-.abstand {
-    margin-top: 25px;
-}
-
-/*formatiierundg der warnungen und texte auf der ersten Seite*/
+/*formatiierundg des textes auf der ersten Seite*/
 #home {
     margin-top: 40px;
- text-align: center;
-}
-
-/*text in der Warnung*/
-.alert {
     text-align: center;
 }
 
-/*responsive*/
-@media (max-width: 1200px) {
-    .agb {
-        width: 600px;
-        height: auto;
-    }
+/*Navigation*/
+.navbar {
+    background-color: rgb(28, 11, 59);
+}
+.nav-link {
+    color: white;
+    font-size: 50px;
 }
 
+/*Link spalte 1*/
 
+td {
+    color: white;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+/*Link spalte 2*/
+.losungen {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
 
+.losungen:hover{
+    color:white;
+    text-decoration: none;
+    background-color: rgba(28, 11, 59, 0.801);
+
+}
+
+/*Link titel Tabelle*/
+
+th{
+    color: white;
+    font-size: 26px; 
+}
+
+/*Link home zu w3school*/
+#w3school{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    padding: 30px;
+    background-color: rgba(28, 11, 59, 0.801);
+}

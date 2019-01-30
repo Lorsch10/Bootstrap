@@ -85,3 +85,13 @@ th{
     padding: 30px;
     background-color: rgba(28, 11, 59, 0.801);
 }
+
+/*footer*/
+footer{
+    background: white;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;  
+  }

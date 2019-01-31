@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="bg-info text-white"> Navigationen aufbauen ist cool</h1>
+
+        <nav class="navbar navbar-expand-md bg-info navbar-dark">
+            <!--das logo der navi-->
+            <a class="navbar-brand" href="#">
+                <img src="img/feder.png" alt="logo" style="width:40px;">
+            </a>
+            <a class="navbar-brand" href="#">Navigation</a>
+            <!--der eingezogene Knopf-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KONTAKTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LINK</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Dropdown Liste </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Formulare
+name 
+vorname
+emailadresse
+passwort
+
+auswahlmenü
+optionsfelder 
+check box
+komentar
+
+spinner 
+popover
+submit 
+-->
+
+
+    <!--Formular-->
+
+    <div>
+        <div class="container">
+            <h2>Formular</h2>
+            <p>Füllen Sie das Formular aus:</p>
+
+            <!--name und vorname-->
+            <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr" name="username">
+            </div>
+            <div class="form-group">
+                <label for="usr">Vorname:</label>
+                <input type="text" class="form-control" id="usr" name="username">
+            </div>
+            <!--email-->
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Email" id="mail" name="email">
+                <div class="input-group-append">
+                    <span class="input-group-text">@example.com</span>
+                </div>
+            </div>
+            <!--passwort-->
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" name="password">
+            </div>
+
+            <!--check box-->
+            <div class="container">
+                <p>Welche Farbe hat diese Webseite?</p>
+                <div class="form-check">
+                    <label class="form-check-label" for="check1">
+                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something"
+                            checked>Blau
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check2">
+                        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">Pink
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check2">
+                        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">Grün
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" disabled> Violett
+                    </label>
+                </div>
+            </div>
+            <!--radio button-->
+
+            <div class="container">
+                <p>Wie viele Radio Buttons sehen Sie?</p>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="radio1">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="1" checked>keine
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" disabled> 6
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="radio2">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="3"> 3
+                    </label>
+                </div>
+            </div>
+            <!--Auswahl menu-->
+            <div class="container mt-3">
+                <p>Welche Software benutzen Sie um Webseiten zu erstellen?</p>
+                <select name="software" class="custom-select mb-3">
+                    <option selected>Auswahl Menu</option>
+                    <option value="vscode">VS Code</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="jimdo">Jimdo</option>
+                </select>
+            </div>
+
+            <!--komentar-->
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label for="comment">Komentar:</label>
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            </div>
+
+            <!--popover-->
+            <div class="container">
+                <a href="#" data-toggle="popover" title="Fehler" 
+                data-content=" Auf dieser Webseite erfahren Sie nicht, 
+                wie Server Eingaben verarbeiten."><button
+                        type="submit" class="btn btn-primary">Submit</button></a>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $('[data-toggle="popover"]').popover();
+                });
+            </script>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

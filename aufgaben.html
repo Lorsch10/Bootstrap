@@ -47,27 +47,76 @@
 
         <!--Aufgabe 1 grid basics-->
         <h2>Aufgabe 1 - Grid Basics</h2>
+        <p>Das Rastersystem ist mit Flex-Boxen ausgestattet und kann bis zu 12 Spalten (span) haben. Man kann alle 12
+            Spalten gleichzeitig benutzen, aber kann auch die Spalten zusammenfassen und so eine breitere Spalte
+            erstellen. Das Rastersystem wird automatisch, je nach Bildschirmgrösse, die Spalten anpassen. Die
+            Grundstruktur besteht aus dem div, dem Attribut class und seinem Wert. Im Wert werden einerseits die
+            Grid-Klasse und andererseits eine Zahl, die auf jeden Fall als Summe 12 ergeben sollte, angegeben (z.B.,
+            Wenn man 3 divs machen will, muss man als zahl 4 nehmen, denn 4+4+4=12).
+            Wenn dieses Thema noch unklar ist, dann  <a id="linkgrid" href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">Klicken
+            Sie hier.</a></p>
+
+        <div class="container">
+            <h2>Grid System</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Grid</th>
+                        <th>Geräte grösse</th>
+                        <th>Bildschirmbreite in px</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>.col-</td>
+                        <td>extra kleine Geräte </td>
+                        <td>Bildschirmbreite weniger als 576px</td>
+                    </tr>
+                    <tr>
+                        <td>.col-sm-</td>
+                        <td>kleine Geräte</td>
+                        <td>Bildschirmbreite größer oder gleich 576px</td>
+                    </tr>
+                    <tr>
+                        <td>.col-md-</td>
+                        <td>mittlere Geräte</td>
+                        <td>Bildschirmbreite größer oder gleich 768px</td>
+                    </tr>
+                    <tr>
+                        <td>.col-lg-</td>
+                        <td>große Geräte</td>
+                        <td>Bildschirmbreite größer oder gleich 992px</td>
+                    </tr>
+                    <tr>
+                        <td>.col-xl-</td>
+                        <td>xlarge-Geräte</td>
+                        <td>Bildschirmbreite größer oder gleich 1200px</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
         <img class="img-fluid" src="bilder/Aufgabe_1_v2.JPG" alt="Screenshot Aufgabe 1 Grid">
         <br>
         <ul>
-            <li>Erstellen Sie eine HTML Seite die mit Bootstaps verlinkt ist.</li>
-            <li> Bauen sie mithilfe der verlinkten Website die oben abgebildete Website nach.</li>
+            <li> Erstellen Sie eine HTML Seite, die mit Bootstaps verlinkt ist.</li>
+            <li> Bauen sie mithilfe der verlinkten Website, die oben abgebildete Website nach.</li>
             <li> Die gewünschten Grössen und Farben sind in den Einzelnen Grids geschrieben.</li>
-            <li> Wenn sie mit der Aufgabe fertig sind, können sie falls nötig in den Lösungen den Code kontrollieren.</li>
+            <li> Wenn sie mit der Aufgabe fertig sind, können Sie mit der Lösungen, Ihren Code kontrollieren.</li>
         </ul>
         <br>
         <!--Aufgaeb 2 Navigation aufbauen-->
         <h2> Aufgabe 2 - Navigation</h2>
-        <img class="img-fluid" src="bilder/Aufgabe_2_nav.JPG" alt="Navigation gross">
-        <br>
         <img class="img-fluid" src="bilder/Aufgabe_2_nav_klein.JPG" alt="Navigation klein">
+        <br>
+        <img class="img-fluid" src="bilder/Aufgabe_2_nav.JPG" alt="Navigation gross">
         <br>
         <ul>
             <p> Erstellen Sie diese Navigation.</p>
-            <p> Inhalt:</p>
+            <p> Sie benötigt:</p>
             <li>eine Dropdownliste</li>
             <li>ein Logo (kann man beliebig wählen)</li>
-            <li>eine minimierte Navigation</li>
+            <li>eine minimierte Navigation </li>
         </ul>
         <br>
         <!--Aufgaeb 3 Karte und Blog-->
@@ -76,26 +125,28 @@
         <br>
         <img class="img-fluid" src="bilder/Aufgabe_3_Karte_gross.JPG" alt="screenshot von Aufgabe 3 gross">
         <br>
-        <img class="img-fluid" src="bilder/Aufgabe_3_blog.JPG" alt="screenshot von Aufgabe 3 Blog">
-        <p> Erstellen sie eine Karte und ein Blog Eintrag. <br>
-            Info: See Profile muss sich zusammenklappen. Das geleiche gillt für den Blog</p>
+        <img class="img-fluid" src="bilder/Aufgabe_3_blog.JPG" alt="screenshot von Aufgabe 3 Blog"> <br>
+        <p>Erstellen sie eine Karte und ein Blog Eintrag.</p>
 
+        <ul>
+            <li>Info: See Profile muss sich zusammenklappen. Das geleiche gillt für den Blog, das Feld Text muss sich
+                zusammenklappen.</li>
+        </ul>
         <br>
         <!--Aufgaeb 4 Formular-->
         <h2>Aufgabe 4</h2>
-        <img class="img-fluid" src="bilder/Aufgabe_4_Formular.JPG" alt="screenshot von Aufgabe 4 Formular">
+        <img class="img-fluid" src="bilder/Aufgabe_4_Formular.JPG" alt="screenshot von Aufgabe 4 Formular"> <br>
         <p>Erstellen Sie dieses Formular <br>
-        Sie beinhaltet:</p>
+            Sie beinhaltet:</p>
         <ul>
-        <li>ein Auswahlmenu</li>
-        <li>eingabe Felder für Text, E-Mail und Passwort</li>
-        <li>Check box</li>
-        <li>Radio Button</li>
-        <li>Bestätigungs-Knopf mit einer Informierenden funktion</li>
-</ul>
+            <li>ein Auswahlmenu</li>
+            <li>eingabe Felder für Text, E-Mail und Passwort</li>
+            <li>Check box</li>
+            <li>Radio Button</li>
+            <li>Bestätigungs-Knopf mit einer Informierenden funktion</li>
+        </ul>
     </main>
     <footer> &copy;SaA und ScL</footer>
 </body>
-
 
 </html>

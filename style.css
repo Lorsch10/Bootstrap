@@ -75,7 +75,7 @@ th{
 }
 
 /*Link sauf andere Webseiten*/
-#w3school{
+.w3school{
     text-decoration: none;
     color: white;
     font-size: 26px;

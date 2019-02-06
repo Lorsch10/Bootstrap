@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:none;stroke:#434242;stroke-width:70.55;}
+	.st3{fill:#434242;stroke:#434242;stroke-width:7.62;}
+	.st4{fill:#434242;}
+</style>
+<g>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="597" height="599" xlink:href="BD11CBB9.png"  transform="matrix(0.6807 0 0 0.6807 788.0945 487.7845)">
+	</image>
+	<g>
+		<g id="Layer_x0020_1_1_">
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="692.4673" y1="-2122.1045" x2="759.1552" y2="-2010.0767" gradientTransform="matrix(0.9474 0.3199 -0.3199 0.9474 -401.751 2130.0249)">
+				<stop  offset="0" style="stop-color:#434242"/>
+				<stop  offset="1" style="stop-color:#2B2A29"/>
+			</linearGradient>
+			<polygon class="st0" points="1133.9,492.5 1330.3,352.8 944.5,293.7 579.6,532.8 776.3,554.7 			"/>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="757.8304" y1="-2055.1062" x2="805.1136" y2="-1914.3296" gradientTransform="matrix(0.9474 0.3199 -0.3199 0.9474 -401.751 2130.0249)">
+				<stop  offset="0" style="stop-color:#434242"/>
+				<stop  offset="1" style="stop-color:#898989"/>
+			</linearGradient>
+			<path class="st1" d="M774,553.3c-16.9,17.4-32.7,36.5-47.5,57c0.5-0.1,1-0.3,1.5-0.8c84.2-100.3,210.8,0.6,211.1-0.2
+				c65.8-144.5,233.4-104,281.1-44.1c-9.5-15.9-20.3-30.5-31.9-43.6c-32-47.2-29.2-57.7-21.3-68.6c7.8-10.9-225.3-82.6-362.5,23.1
+				c3.6,31.4-6.1,50-30.6,77.3L774,553.3z"/>
+			<line class="st2" x1="673.3" y1="534.9" x2="661.6" y2="569.7"/>
+			
+				<ellipse transform="matrix(0.3199 -0.9474 0.9474 0.3199 -106.5792 1019.4171)" class="st3" cx="656.8" cy="583.9" rx="19" ry="13.8"/>
+			<path class="st4" d="M669.9,588.4c0,0-41.1,97.6-38.6,118.5c0.7,6.3-2.5,9.3-7.8,10.1c-0.6,0.1,1.2-13.5,0.6-13.5
+				c-0.7,0-3.6,13.7-4.2,13.6c-10.9-0.2-26.6-7-34.4-13.5c-0.4-0.4,20.8-31.8,20.5-32.1c-0.6-0.6-22.7,30-23.2,29.3
+				c-9.6-11.4,50.3-39.6,60.1-118.1C663.5,564.3,669.9,588.3,669.9,588.4L669.9,588.4z"/>
+		</g>
+	</g>
+</g>
+</svg>

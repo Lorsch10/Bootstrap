@@ -1,0 +1,48 @@
+#titel {
+    border: 5px;
+    border-style: double;
+    border-color: beige;
+    text-align: center ;
+    color: beige;
+}
+body {
+    background: #4e2222;
+}
+.icon {
+    width: 175px;
+    height: auto;
+}
+#navi {
+    border: 5px;
+    border-style: double;
+    border-color: beige;
+    text-align: center ;
+}
+div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    padding: 0px 110px;
+}
+.nav-link {
+    margin: 0px 100px;
+    font-size: 173%;
+}
+.carousel-item {
+    text-align: center;
+}
+.alert-info {
+    margin-top: 25px;
+}
+.test {
+    text-align: center;
+    color: beige;
+}
+h1 {
+    margin-top: 20px;
+}
